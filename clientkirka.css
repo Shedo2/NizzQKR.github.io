@@ -134,8 +134,6 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 .left-icons .icon-btn {
 	display: block;
     position: absolute;
-    width: auto;
-    height: auto;
     transition: ease-in-out 0.2s;
     right: 84%;
     top: 118%;
