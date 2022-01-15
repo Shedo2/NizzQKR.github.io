@@ -286,6 +286,11 @@ Made By: NizzQ
 	box-shadow: none !important;
 }
 
+.play:before {
+	content: "css by NizzQ";
+	margin-right: 30px;
+}
+
 /* HUD */
 .mini-map-cont .name {
 	display: none;
