@@ -1,28 +1,22 @@
 /*
-Kirka.io Private CSS for Client
+Kirka.io Simple CSS
 Made By: NizzQ
 */
-
 /* Font */
 @font-face {
-    font-family: gamefont;
-    src: url(https://raw.githubusercontent.com/Yadub/BoulderBox/master/fonts/Fontfabric---Mont-Heavy.otf);
+	font-family: gamefont;
+	src: url(https://raw.githubusercontent.com/Yadub/BoulderBox/master/fonts/Fontfabric---Mont-Heavy.otf);
 }
 
 * {
-    font-family: gamefont;
+	font-family: gamefont;
 }
 
 /*Background */
 .pattern-bg {
 	background: url(https://media.discordapp.net/attachments/529192409305710602/902459779144900628/FcQshr.png?width=1168&height=657) !important;
-    width: 100%;
+	width: 100%;
 }
-
-/*
-Another BG: https://media.discordapp.net/attachments/529192409305710602/902443840387026944/oriental-tiles.png
-			https://media.discordapp.net/attachments/529192409305710602/902459294367219712/papers.png?width=1051&height=657
-*/
 
 .bg-radial {
 	display: none;
@@ -31,11 +25,11 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 /* Animation */
 @keyframes container {
 	0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateY(0);
-    }
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateY(0);
+	}
 }
 
 /* Stream */
@@ -55,11 +49,11 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 
 /* Lobby */
 .mobile-fullscreen {
-	background: rgba(0,0,0,0) !important;
+	background: rgba(0, 0, 0, 0) !important;
 }
 
 .background {
-	background: rgba(0,0,0,0) !important;
+	background: rgba(0, 0, 0, 0) !important;
 }
 
 .view {
@@ -90,22 +84,36 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 .moneys {
 	position: fixed;
 	right: unset;
-	left: 83% !important;
+	left: 84% !important;
+}
+
+.moneys .money[style="--i:3;"] {
+	background: transparent;
+	border-top: transparent;
+	border-bottom: transparent;
+	box-shadow: none;
+}
+
+.moneys .money[style="--i:2;"] {
+	background: transparent;
+	border-top: transparent;
+	border-bottom: transparent;
+	box-shadow: none;
 }
 
 .right-icons {
-	transform:translateX(90%);
-    flex-direction:column;
+	transform: translateX(90%);
+	flex-direction: column;
 }
 
 .right-icons .inventory-card {
 	-webkit-transform: translateX(-38px);
-    transform: translateX(-38px);
+	transform: translateX(-38px);
 	transition: ease-in-out 0.4s;
 }
 
 .inventory-card:hover {
-    transform: translateX(-140px);
+	transform: translateX(-140px);
 }
 
 .right-icons .icon-btn {
@@ -127,23 +135,21 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 }
 
 .right-icons .text-icon {
-	margin-right: -30%;
-	margin-top: 9%;
+	margin-right: -7%;
+	margin-top: 5%;
 }
 
 .left-icons .icon-btn {
 	display: block;
-    position: absolute;
-    width: auto;
-    height: auto;
-    transition: ease-in-out 0.2s;
-    right: 84%;
-    top: 118%;
-    opacity: 0;
+	position: absolute;
+	transition: ease-in-out 0.2s;
+	right: 84%;
+	top: 118%;
+	opacity: 0;
 }
 
 .left-icons .icon-btn:hover {
-    transform: scale(1.2)
+	transform: scale(1.2)
 }
 
 #icon-store {
@@ -176,7 +182,7 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 
 #icon-store:hover {
 	border-top: transparent;
-    background-position-x: 0% !important;
+	background-position-x: 0% !important;
 }
 
 .icon-btn:nth-child(2):hover {
@@ -187,56 +193,60 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 	border-top: transparent;
 }
 
-.icon-btn:hover>.wrapper[data-v-45658db6] {
-    transform: unset;
+.icon-btn:hover > .wrapper[data-v-45658db6] {
+	transform: unset;
 }
 
 .left-interface {
-    display: inline-block;
-    left: 42%;
-    width: 400px;
-    height: 400px;
-    top: inherit;
-    bottom: 70px
+	display: inline-block;
+	left: 42%;
+	width: 400px;
+	height: 400px;
+	top: inherit;
+	bottom: 70px
 }
 
 .left-icons:after {
 	position: absolute;
-    display: inline-block;
-    content: url(https://media.discordapp.net/attachments/529192409305710602/902513553318219806/arrow2.png);
-    top: 430px;
-    left: -50px;
-    transition: ease-in-out 0.3s;
-    border-radius: 360px;
+	display: inline-block;
+	content: url(https://media.discordapp.net/attachments/529192409305710602/902513553318219806/arrow2.png);
+	top: 430px;
+	left: -50px;
+	transition: ease-in-out 0.3s;
+	border-radius: 360px;
 }
 
 .left-icons:hover #icon-store:nth-child(1) {
-    margin-top: -108px;
-    margin-right: -120px;
+	margin-top: -108px;
+	margin-right: -120px;
 }
 
 .left-icons:hover .icon-btn:nth-child(2) {
-    margin-top: -10px;
-    margin-right: -120px;
+	margin-top: -10px;
+	margin-right: -120px;
 }
 
 .left-icons:hover .icon-btn:nth-child(3) {
-    margin-top: 100px;
-    margin-right: -120px;
+	margin-top: 100px;
+	margin-right: -120px;
 }
 
 .left-icons:hover .icon-btn[style="--i:3;"] {
-    margin-top: 200px;
-    margin-right: -120px;
+	margin-top: 200px;
+	margin-right: -120px;
 }
 
-.left-icons:hover .icon-btn:nth-child(5) {
-    margin-top: 190px;
-    margin-right: -120px;
+.left-icons #clientSettings {
+	display: none !important;
 }
 
 .left-icons:hover .icon-btn {
-    opacity: 1 !important;
+	margin-top: 190px;
+	margin-right: -120px;
+}
+
+.left-icons:hover .icon-btn {
+	opacity: 1 !important;
 }
 
 #auth-user {
@@ -267,22 +277,13 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 	backdrop-filter: blur(5px);
 }
 
-.card-1{
+.card-1 {
 	display: block !important;
 	margin-top: 20% !important;
 	background: transparent !important;
 	border-bottom: transparent !important;
 	border-top: transparent !important;
 	box-shadow: none !important;
-}
-
-/* Loading */
-.loading-scene .loading{
-	display: none;
-}
-
-.background-cont .bg-image {
-	background: url('https://media.discordapp.net/attachments/523517791886770188/914184537314033694/IMG_8028.jpg?width=715&height=657')
 }
 
 /* HUD */
@@ -346,7 +347,9 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 }
 
 /* Profile */
-.profile .avatar-info, .profile .level, .exp-values {
+.profile .avatar-info,
+.profile .level,
+.exp-values {
 	display: none;
 }
 
@@ -361,7 +364,7 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 }
 
 /* Timer and Score */
-.timer{
+.timer {
 	position: fixed;
 	right: 783px;
 }
@@ -370,4 +373,16 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 	margin: 26.5px;
 	margin-left: 60px;
 	margin-right: 60px;
+}
+
+/* Slider and Input */
+input {
+	background: white !important;
+	color: black !important;
+	border-radius: 10px !important;
+}
+
+input[type=range] + .range {
+	border-radius: 6px;
+	background: #f27c0f !important;
 }
