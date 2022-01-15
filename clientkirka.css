@@ -234,7 +234,6 @@ Made By: NizzQ
 .left-icons:hover .icon-btn[style="--i:3;"] {
 	margin-top: 200px;
 	margin-right: -120px;
-<<<<<<< HEAD
 }
 
 .left-icons #clientSettings {
@@ -247,20 +246,6 @@ Made By: NizzQ
 }
 
 .left-icons:hover .icon-btn {
-=======
-}
-
-.left-icons #clientSettings {
-	display: none !important;
-}
-
-.left-icons:hover .icon-btn {
-	margin-top: 190px;
-	margin-right: -120px;
-}
-
-.left-icons:hover .icon-btn {
->>>>>>> a37e59b0de56f1393f53e6395112a5495510c534
 	opacity: 1 !important;
 }
 
@@ -301,14 +286,11 @@ Made By: NizzQ
 	box-shadow: none !important;
 }
 
-<<<<<<< HEAD
 .play:before {
 	content: "css by NizzQ";
 	margin-right: 30px;
 }
 
-=======
->>>>>>> a37e59b0de56f1393f53e6395112a5495510c534
 /* HUD */
 .mini-map-cont .name {
 	display: none;
