@@ -237,7 +237,9 @@ Made By: NizzQ
 }
 
 .left-icons #clientSettings {
-	display: none !important;
+	margin-top: 120px;
+	margin-right: -180px;
+	opacity: 0;
 }
 
 .left-icons:hover .icon-btn {
@@ -390,8 +392,4 @@ input {
 input[type=range] + .range {
 	border-radius: 6px;
 	background: #f27c0f !important;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> a37e59b0de56f1393f53e6395112a5495510c534
